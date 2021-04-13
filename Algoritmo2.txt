@@ -1,0 +1,16 @@
+Algoritmo "média"
+//Função: Ler 10 valores e apresentar a média
+Var
+   n, soma, media: real 
+   i: inteiro 
+inicio
+   i <- 0
+   Escreval ("Caro usuário, informe 10 valores.")
+   Enquanto (i < 10) faca
+            Leia (n)
+            Soma <- soma + n
+            i <- i + 1
+   Fimenquanto
+   Media <- soma/10
+   Escreval ("A média desses valores é ",media)
+Fimalgoritmo 
