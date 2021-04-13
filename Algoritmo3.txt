@@ -1,0 +1,39 @@
+algoritmo "calculadora"
+// Função :  Um algoritmo que realize as quatros operações, de acordo com a solicitação do usuário
+var
+x:inteiro
+n1,n2: real
+inicio
+Repita
+   Escreval("Caro usuário, escolha uma das operações")
+   Escreval("1-soma, 2-subtração, 3-divisão, 4-multiplicação, 5-encerrar")
+   Leia (x)
+   Se X=1 entao
+      Escreval ("Digite dois valores")
+      Leia (n1)
+      Leia (n2)
+      Escreval("O resultado é ",n1+n2)
+   Senao
+      Se X=2 entao
+         Escreval ("Digite dois valores")
+         Leia (n1)
+         Leia (n2)
+         Escreval("O resultado é ",n1-n2)
+      Senao
+         Se X=3 entao
+            Escreval ("Digite dois valores")
+            Leia (n1)
+            Leia (n2)
+            Escreval("O resultado é ",n1/n2)
+         Senao
+            Se X=4 entao
+               Escreval ("Digite dois valores")
+               Leia (n1)
+               Leia (n2)
+               Escreval("O resultado é ",n1*n2)
+            Fimse
+         Fimse
+      Fimse
+   Fimse
+Ate (x=5)
+fimalgoritmo
