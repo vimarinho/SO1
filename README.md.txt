@@ -16,5 +16,5 @@ Instalar o Git local e criar uma conta no Github.
 
 ##Adicionando imagem no README.md
 
-![](Alg3-1.png)
-![](Alg3-2.png)
+![](Alg1.png)
+![](Alg2.png)
